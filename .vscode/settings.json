@@ -1,0 +1,44 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onWindowChange",
+  "files.eol": "\n",
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "editor.rulers": [80, 100],
+  "javascript.validate.enable": false,
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "json", "yaml", "html", "css", "scss"],
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": true,
+  "typescript.validate.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "git.ignoreLimitWarning": true,
+  "git.autofetch": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.snippetSuggestions": "inline",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.minimap.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "editor.lightbulb.enabled": true,
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}

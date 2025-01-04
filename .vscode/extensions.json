@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "editorconfig.editorconfig",
+    "mhutchie.git-graph",
+    "ms-python.python",
+    "prisma.prisma",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.npm-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "ms-vsliveshare.vsliveshare",
+    "aaron-bond.better-comments",
+    "alefragnani.project-manager",
+    "yzhang.markdown-all-in-one",
+    "formulahendry.auto-rename-tag",
+    "ridemyad.tldr-pages-vscode",
+    "gorangajic.vscode-jest"
+  ]
+}

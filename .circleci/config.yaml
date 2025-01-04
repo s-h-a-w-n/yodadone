@@ -1,0 +1,87 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    working_directory: ~/repo
+
+jobs:
+  checkout:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+
+  install-dependencies:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            npm install
+
+  lint:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+      - run:
+          name: Run ESLint
+          command: |
+            npx eslint .
+
+  test:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+      - run:
+          name: Run unit tests
+          command: |
+            npm test
+
+  build:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+      - run:
+          name: Build the project
+          command: |
+            npm run build
+
+  deploy:
+    docker:
+      - image: circleci/node:18.14.0-buster
+    steps:
+      - checkout
+      - run:
+          name: Deploy to production
+          command: |
+            echo "Deploying to production..."
+            # Deploy commands go here
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - checkout
+      - install-dependencies:
+          requires:
+            - checkout
+      - lint:
+          requires:
+            - install-dependencies
+      - test:
+          requires:
+            - lint
+      - build:
+          requires:
+            - test
+      - deploy:
+          requires:
+            - build
+

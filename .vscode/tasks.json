@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: lint",
+      "type": "npm",
+      "script": "lint",
+      "group": "build",
+      "problemMatcher": ["$eslint-stylish"],
+      "detail": "Run ESLint to check code quality"
+    },
+    {
+      "label": "npm: lint:fix",
+      "type": "npm",
+      "script": "lint:fix",
+      "group": "build",
+      "problemMatcher": ["$eslint-stylish"],
+      "detail": "Fix ESLint issues automatically"
+    },
+    {
+      "label": "npm: format",
+      "type": "npm",
+      "script": "format",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Format the code using Prettier"
+    },
+    {
+      "label": "npm: build",
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "detail": "Build the project"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+tab_width = 2
+max_line_length = 100
+comment_padding = true
+
+# Settings for JavaScript/TypeScript files
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+max_line_length = 120
+quote_type = single
+js_indent_size = 2
+jsx_indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+max_line_length = 120
+
+# YAML files
+[*.{yaml,yml}]
+indent_size = 2
+max_line_length = 120
+
+# Markdown files
+[*.md]
+indent_size = 2
+max_line_length = 80
+trim_trailing_whitespace = false
+
+# HTML files
+[*.html]
+indent_size = 2
+max_line_length = 120
+
+# CSS/SCSS files
+[*.{css,scss}]
+indent_size = 2
+max_line_length = 120
+
+# Python files
+[*.py]
+indent_size = 4
+max_line_length = 80
+# Special rules for Python scripts
+[*.{py}]
+indent_style = space
+insert_final_newline = true
+
+# Go files
+[*.go]
+indent_size = 4
+max_line_length = 120
+
+# C, C++, and Objective-C files
+[*.{c,c++,h,m}]
+indent_size = 4
+max_line_length = 100
+
+# LaTeX files
+[*.tex]
+indent_size = 2
+max_line_length = 80
+
+# Shell scripts (Bash, Zsh, etc.)
+[*.{sh,zsh}]
+indent_size = 2
+max_line_length = 120
