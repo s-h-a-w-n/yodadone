@@ -1,0 +1,30 @@
+{
+  "name": "yodadone",
+  "version": "0.1.0",
+  "description": "Done, it is. Procrastinate, you must not.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-h-a-w-n/yodadone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-h-a-w-n/yodadone/issues"
+  },
+  "homepage": "https://github.com/s-h-a-w-n/yodadone#readme",
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "nodemon": "2.0.22"
+  }
+}
