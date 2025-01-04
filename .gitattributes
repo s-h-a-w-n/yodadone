@@ -1,0 +1,26 @@
+# Set default behavior for line endings
+* text=auto
+
+# Force Git to always treat specific files as binary
+*.jpg binary
+*.png binary
+*.gif binary
+
+# Specify custom merge strategies for certain files
+*.md merge=union
+
+# Ensure consistent line endings for text files
+*.sh text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Set attributes for specific file types
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+
+# Explicitly mark files as text files
+*.txt text
+*.md text
