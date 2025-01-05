@@ -1,6 +1,11 @@
 # YodaDone
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Test Coverage](https://img.shields.io/codecov/c/github/s-h-a-w-n/yodadone)
+![Contributors](https://img.shields.io/github/contributors/s-h-a-w-n/yodadone)
+![Version](https://img.shields.io/github/v/release/s-h-a-w-n/yodadone?label=version)
+![Last Commit](https://img.shields.io/github/last-commit/s-h-a-w-n/yodadone)
 
 <p align="left">
   <img src="./static/logo.png" alt="YodaDone Logo" width="300"/>
