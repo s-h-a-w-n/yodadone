@@ -1,7 +1,9 @@
 # YodaDone
 
-<p align="center">
-  <img src="./static/logo.png" alt="YodaDone Logo" width="200"/>
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main)
+
+<p align="left">
+  <img src="./static/logo.png" alt="YodaDone Logo" width="300"/>
 </p>
 
 A collaborative to-do list app for families, friends, and coworkers. Get things done, Yoda-style! Whether you're managing tasks together or just need to keep track of your own to-do's, YodaDone makes it easy, fun, and efficient.
