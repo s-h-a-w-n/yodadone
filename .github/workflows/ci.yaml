@@ -16,10 +16,17 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '23.5.0'
 
       - name: Install dependencies
         run: npm install
 
+      - name: Install Jest and Supertest
+        run: npm install jest supertest --save-dev
+
       - name: Run tests
         run: npm test
+
+      - name: Output test results
+        if: failure()
+        run: cat ./test-results.txt || true
