@@ -1,6 +1,8 @@
 # YodaDone
 
-![YodaDone Logo](./static/logo.png)
+<p align="center">
+  <img src="./static/logo.png" alt="YodaDone Logo" width="200"/>
+</p>
 
 A collaborative to-do list app for families, friends, and coworkers. Get things done, Yoda-style! Whether you're managing tasks together or just need to keep track of your own to-do's, YodaDone makes it easy, fun, and efficient.
 
@@ -15,4 +17,4 @@ A collaborative to-do list app for families, friends, and coworkers. Get things 
 
 ## Setup
 
-TODO 
+TODO
