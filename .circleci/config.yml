@@ -16,6 +16,9 @@ jobs:
           name: Install dependencies
           command: npm install
       - run:
+          name: Install Jest
+          command: npm install jest supertest --save-dev
+      - run:
           name: Run tests
           command: npm test
 
