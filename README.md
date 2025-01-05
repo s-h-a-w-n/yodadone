@@ -1,6 +1,7 @@
 # YodaDone
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/circleci/Ewc3KvFkVG91cytpejZoz5/KfEM1oP4KsgN25MYKekHjc/tree/main)
+[![Node.js CI](https://github.com/s-h-a-w-n/yodadone/actions/workflows/ci.yaml/badge.svg)](https://github.com/s-h-a-w-n/yodadone/actions/workflows/ci.yaml)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Test Coverage](https://img.shields.io/codecov/c/github/s-h-a-w-n/yodadone)
 ![Contributors](https://img.shields.io/github/contributors/s-h-a-w-n/yodadone)
